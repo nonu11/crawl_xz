@@ -1,5 +1,7 @@
 name: 自动爬取安全社区文章
 
+permissions:
+  contents: write
 on:
   # 定时任务：每天UTC 0:00 (北京时间8:00) 运行
   schedule:
