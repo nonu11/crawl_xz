@@ -14,7 +14,7 @@ on:
       site:
         description: '选择爬取的站点'
         required: true
-        default: 'both'
+        default: 'xianzhi'
         type: choice
         options:
           - xianzhi
