@@ -2,12 +2,13 @@ name: 自动爬取安全社区文章
 
 permissions:
   contents: write
+
 on:
-  # 定时任务：每天UTC 0:00 (北京时间8:00) 运行
+  # 定时任务：每天 UTC 0:00（北京时间 8:00）
   schedule:
     - cron: '0 0 * * *'
-  
-  # 支持手动触发
+
+  # 手动触发
   workflow_dispatch:
     inputs:
       site:
@@ -20,11 +21,11 @@ on:
           - butian
           - both
       start_id:
-        description: '起始文章ID（可选，留空则自动递增）'
+        description: '起始文章ID（可选，留空则从状态文件读取）'
         required: false
         type: string
       end_id:
-        description: '结束文章ID（可选，留空则自动递增）'
+        description: '结束文章ID（可选，留空则按 CRAWL_STEP 递增）'
         required: false
         type: string
       format:
@@ -37,145 +38,158 @@ on:
           - md+pdf
           - all
 
+# 防止定时任务与手动触发同时 push 造成冲突
+concurrency:
+  group: crawl-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  # 每次抓取的 ID 跨度，必须大于站点单日新增文章数，否则永远追不上
+  CRAWL_STEP: 30
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 180
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史记录
-      
+          fetch-depth: 0
+
       - name: 设置Python环境
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'pip'
-      
+
       - name: 安装系统依赖
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget unzip xvfb libxi6
-          
-          # 安装Chrome
-          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get install -y wget unzip xvfb libxi6 wkhtmltopdf
+
+          # Chrome 签名密钥（apt-key 已废弃，改用 keyring）
+          curl -fsSL https://dl.google.com/linux/linux_signing_key.pub \
+            | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" \
+            | sudo tee /etc/apt/sources.list.d/google-chrome.list
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
-          
-          # 安装wkhtmltopdf（用于PDF生成）
-          sudo apt-get install -y wkhtmltopdf
-      
+
+          google-chrome --version
+
       - name: 安装Python依赖
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
-      
+
       - name: 读取上次爬取的ID
         id: read_ids
         run: |
-          # 创建ID记录文件（如果不存在）
           mkdir -p .github/crawl_state
-          
-          # 先知社区
-          if [ ! -f .github/crawl_state/xianzhi_last_id.txt ]; then
-            echo "18000" > .github/crawl_state/xianzhi_last_id.txt
-          fi
-          XZ_LAST_ID=$(cat .github/crawl_state/xianzhi_last_id.txt)
-          echo "xz_last_id=$XZ_LAST_ID" >> $GITHUB_OUTPUT
-          
-          # 奇安信攻防社区
-          if [ ! -f .github/crawl_state/butian_last_id.txt ]; then
-            echo "2400" > .github/crawl_state/butian_last_id.txt
-          fi
-          BT_LAST_ID=$(cat .github/crawl_state/butian_last_id.txt)
-          echo "bt_last_id=$BT_LAST_ID" >> $GITHUB_OUTPUT
-      
+
+          [ -f .github/crawl_state/xianzhi_last_id.txt ] || echo "18000" > .github/crawl_state/xianzhi_last_id.txt
+          [ -f .github/crawl_state/butian_last_id.txt ] || echo "2400" > .github/crawl_state/butian_last_id.txt
+
+          echo "xz_last_id=$(cat .github/crawl_state/xianzhi_last_id.txt)" >> "$GITHUB_OUTPUT"
+          echo "bt_last_id=$(cat .github/crawl_state/butian_last_id.txt)" >> "$GITHUB_OUTPUT"
+
       - name: 爬取先知社区文章
-        if: ${{ github.event.inputs.site != 'butian' || github.event_name == 'schedule' }}
+        if: github.event_name == 'schedule' || github.event.inputs.site == 'both' || github.event.inputs.site == 'xianzhi'
+        env:
+          IN_START: ${{ github.event.inputs.start_id }}
+          IN_END: ${{ github.event.inputs.end_id }}
+          IN_FORMAT: ${{ github.event.inputs.format }}
+          LAST_ID: ${{ steps.read_ids.outputs.xz_last_id }}
         run: |
-          # 确定ID范围
-          if [ -n "${{ github.event.inputs.start_id }}" ]; then
-            START_ID=${{ github.event.inputs.start_id }}
-          else
-            START_ID=${{ steps.read_ids.outputs.xz_last_id }}
-          fi
-          
-          if [ -n "${{ github.event.inputs.end_id }}" ]; then
-            END_ID=${{ github.event.inputs.end_id }}
-          else
-            END_ID=$((START_ID + 10))  # 每次爬取10篇
-          fi
-          
-          FORMAT="${{ github.event.inputs.format }}"
-          if [ -z "$FORMAT" ]; then
-            FORMAT="md"  # 默认只生成Markdown，节省空间
-          fi
-          
-          echo "爬取先知社区文章 $START_ID 到 $END_ID"
-          python crawl_xz_aliyun.py --start $START_ID --end $END_ID --format $FORMAT --sleep 3
-          
-          # 更新最后爬取的ID
-          echo $END_ID > .github/crawl_state/xianzhi_last_id.txt
+          # 通过 env 传参，避免把用户输入直接拼进 shell（注入风险）
+          START_ID="${IN_START:-$LAST_ID}"
+          END_ID="${IN_END:-$((START_ID + ${CRAWL_STEP}))}"
+          FORMAT="${IN_FORMAT:-md}"
+
+          echo "爬取先知社区文章 $START_ID ~ $END_ID（format=$FORMAT）"
+          python crawl_xz_aliyun.py --start "$START_ID" --end "$END_ID" --format "$FORMAT" --sleep 3
+
+          # end 为闭区间，下次从下一条开始，避免重复抓取
+          echo "$((END_ID + 1))" > .github/crawl_state/xianzhi_last_id.txt
         continue-on-error: true
-      
+
       - name: 爬取奇安信攻防社区文章
-        if: ${{ github.event.inputs.site != 'xianzhi' || github.event_name == 'schedule' }}
+        if: github.event_name == 'schedule' || github.event.inputs.site == 'both' || github.event.inputs.site == 'butian'
+        env:
+          IN_START: ${{ github.event.inputs.start_id }}
+          IN_END: ${{ github.event.inputs.end_id }}
+          IN_FORMAT: ${{ github.event.inputs.format }}
+          LAST_ID: ${{ steps.read_ids.outputs.bt_last_id }}
         run: |
-          # 确定ID范围
-          if [ -n "${{ github.event.inputs.start_id }}" ]; then
-            START_ID=${{ github.event.inputs.start_id }}
-          else
-            START_ID=${{ steps.read_ids.outputs.bt_last_id }}
-          fi
-          
-          if [ -n "${{ github.event.inputs.end_id }}" ]; then
-            END_ID=${{ github.event.inputs.end_id }}
-          else
-            END_ID=$((START_ID + 10))  # 每次爬取10篇
-          fi
-          
-          FORMAT="${{ github.event.inputs.format }}"
-          if [ -z "$FORMAT" ]; then
-            FORMAT="md"
-          fi
-          
-          echo "爬取奇安信攻防社区文章 $START_ID 到 $END_ID"
-          python crawl_butian_forum.py --start $START_ID --end $END_ID --format $FORMAT --sleep 5
-          
-          # 更新最后爬取的ID
-          echo $END_ID > .github/crawl_state/butian_last_id.txt
+          START_ID="${IN_START:-$LAST_ID}"
+          END_ID="${IN_END:-$((START_ID + ${CRAWL_STEP}))}"
+          FORMAT="${IN_FORMAT:-md}"
+
+          echo "爬取奇安信攻防社区文章 $START_ID ~ $END_ID（format=$FORMAT）"
+          python crawl_butian_forum.py --start "$START_ID" --end "$END_ID" --format "$FORMAT" --sleep 5
+
+          echo "$((END_ID + 1))" > .github/crawl_state/butian_last_id.txt
         continue-on-error: true
-      
+
+      # 兜底：清洗历史遗留的非法文件名（换行/制表/Windows 保留字符），
+      # 否则上传或跨平台下载会失败。爬虫侧已修的话，这一步通常什么都不做。
+      - name: 清洗文件名
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          import re
+
+          INVALID = re.compile(r'[\\/:*?"<>|\x00-\x1f]')
+          changed = 0
+
+          for p in list(pathlib.Path('.').rglob('*.md')):
+              if not p.is_file():
+                  continue
+              new = re.sub(r'\s+', ' ', p.name).strip()
+              new = INVALID.sub('_', new).rstrip(' .')
+              if len(new) > 120:
+                  new = p.stem[:110].rstrip(' .') + p.suffix
+              if not new or new == p.name:
+                  continue
+              target, i = p.with_name(new), 1
+              while target.exists() and target != p:
+                  target = p.with_name(f'{pathlib.Path(new).stem}_{i}{p.suffix}')
+                  i += 1
+              p.rename(target)
+              changed += 1
+              print('renamed:', repr(p.name), '->', target.name)
+
+          print('total renamed:', changed)
+          PY
+
       - name: 生成文章索引
         run: |
           python .github/scripts/generate_index.py
         continue-on-error: true
-      
+
+      - name: 检查爬取结果
+        if: always()
+        run: |
+          COUNT=$(git status --porcelain -- xianzhi butian 2>/dev/null | wc -l)
+          echo "本次新增/变更文件数: $COUNT"
+          if [ "$COUNT" -eq 0 ]; then
+            echo "::warning::本次未抓到任何新文章，请检查站点可用性或 CRAWL_STEP 是否过小"
+          fi
+
       - name: 提交更改
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          git add .
-          
-          # 检查是否有更改
+
+          git add -A
+
           if git diff --staged --quiet; then
             echo "没有新文章"
-          else
-            TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')
-            git commit -m "自动爬取文章 - $TIMESTAMP"
-            git push
+            exit 0
           fi
-      
-      - name: 上传爬取日志
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: crawl-logs
-          path: |
-            xianzhi/*.md
-            butian/*.md
-          retention-days: 7
 
+          git commit -m "自动爬取文章 - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push || { git pull --rebase --autostash && git push; }
