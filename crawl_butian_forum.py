@@ -26,12 +26,17 @@ __version__ = '1.0'
 __author__ = 'AI Assistant'
 __date__ = '2025-11-01'
 
-def filename_filter(filename):  
-    """过滤文件名中的非法字符"""
-    string1="\/:*?\"<>|"
-    for s1 in string1:
-        filename= filename.replace(s1," ")
-    return filename.strip()
+def filename_filter(filename, max_len=100):
+    """过滤文件名中的非法字符（含换行/制表等空白），并限制长度"""
+    if not filename:
+        return "untitled"
+    # 所有空白（\n \r \t 全角空格）压缩成单个空格 —— 关键
+    name = re.sub(r'\s+', ' ', str(filename)).strip()
+    # NTFS/跨平台非法字符 + 控制字符
+    name = re.sub(r'[\\/:*?"<>|\x00-\x1f]', '_', name)
+    # 去掉 Windows 不允许的结尾点/空格
+    name = name.rstrip(' .')
+    return name[:max_len].rstrip(' .') or 'untitled'
 
 def markdown_to_pdf(md_content, output_path, title="", keep_html=True):
     """将Markdown内容转换为PDF
