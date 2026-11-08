@@ -1,7 +1,7 @@
 # 安全社区文章索引
 
 > 📚 自动爬取的安全技术文章集合  
-> 🤖 最后更新: 2026-11-08 05:33:42
+> 🤖 最后更新: 2026-11-08 12:53:22
 
 ## 📊 统计信息
 
@@ -93,12 +93,12 @@
 | 16012 | JFinal CMS 5.1.0 命令执行漏洞分析(CVE-2024-53477)-先知社区 | 3.1 KB | [📄](xianzhi/16012-JFinal CMS 5.1.0 命令执行漏洞分析(CVE-2024-53477)-先知社区.md) [🔗](https://xz.aliyun.com/news/16012  ) |
 | 16014 | 基于JavaSecLab 一款综合Java漏洞平台的学习思考（二）-先知社区 | 41.8 KB | [📄](xianzhi/16014-基于JavaSecLab 一款综合Java漏洞平台的学习思考（二）-先知社区.md) [🔗](https://xz.aliyun.com/news/16014  ) |
 | 16016 | 免杀基础-shellcode开发-先知社区 | 22.6 KB | [📄](xianzhi/16016-免杀基础-shellcode开发-先知社区.md) [🔗](https://xz.aliyun.com/news/16016  ) |
-| 16017 | gRPC&Go: XCTF联赛DubheCTF2024 - ggbond 详细题解-先知社区 | 23.5 KB | [📄](xianzhi/16017-gRPC&Go  XCTF联赛DubheCTF2024 - ggbond 详细题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16017  ) |
+| 16017 | gRPC&Go: XCTF联赛DubheCTF2024 - ggbond 详细题解-先知社区 | 23.5 KB | [📄](xianzhi/16017-gRPC&Go XCTF联赛DubheCTF2024 - ggbond 详细题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16017  ) |
 | 16018 | S8强网杯Final-thinkshopplus-先知社区 | 20.7 KB | [📄](xianzhi/16018-S8强网杯Final-thinkshopplus-先知社区.md) [🔗](https://xz.aliyun.com/news/16018  ) |
 | 16019 | S8强网杯 ez_login详解-先知社区 | 1.8 KB | [📄](xianzhi/16019-S8强网杯 ez_login详解-先知社区.md) [🔗](https://xz.aliyun.com/news/16019  ) |
 | 16023 | 若依一把梭哈工具源码分析-先知社区 | 11.0 KB | [📄](xianzhi/16023-若依一把梭哈工具源码分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16023  ) |
 | 16024 | CVE-2024-3408 D-tale bypassRCE分析-先知社区 | 5.5 KB | [📄](xianzhi/16024-CVE-2024-3408 D-tale bypassRCE分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16024  ) |
-| 16025 | CVE-2024-4181  run-llama/llama_index-SSE Command Injection分析-先知社区 | 4.6 KB | [📄](xianzhi/16025-CVE-2024-4181  run-llama llama_index-SSE Command Injection分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16025  ) |
+| 16025 | CVE-2024-4181  run-llama/llama_index-SSE Command Injection分析-先知社区 | 4.6 KB | [📄](xianzhi/16025-CVE-2024-4181 run-llama llama_index-SSE Command Injection分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16025  ) |
 | 16026 | 云函数实现代理绕过IP封锁-先知社区 | 9.0 KB | [📄](xianzhi/16026-云函数实现代理绕过IP封锁-先知社区.md) [🔗](https://xz.aliyun.com/news/16026  ) |
 | 16031 | boofuzz 中的 Request 和 Path 源码分析-先知社区 | 14.7 KB | [📄](xianzhi/16031-boofuzz 中的 Request 和 Path 源码分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16031  ) |
 | 16035 | 浅析异常线程检测逻辑（unbacked）-先知社区 | 18.9 KB | [📄](xianzhi/16035-浅析异常线程检测逻辑（unbacked）-先知社区.md) [🔗](https://xz.aliyun.com/news/16035  ) |
@@ -153,7 +153,7 @@
 | 16110 | 实战自动化加解密&加密场景下的暴力破解-先知社区 | 8.9 KB | [📄](xianzhi/16110-实战自动化加解密&加密场景下的暴力破解-先知社区.md) [🔗](https://xz.aliyun.com/news/16110  ) |
 | 16111 | House Of Corrosion与House Of Husk的交叉利用-先知社区 | 13.4 KB | [📄](xianzhi/16111-House Of Corrosion与House Of Husk的交叉利用-先知社区.md) [🔗](https://xz.aliyun.com/news/16111  ) |
 | 16112 | 深入探索：利用 io_uring 实现高效的 Shellcode 攻击-先知社区 | 18.4 KB | [📄](xianzhi/16112-深入探索：利用 io_uring 实现高效的 Shellcode 攻击-先知社区.md) [🔗](https://xz.aliyun.com/news/16112  ) |
-| 16113 | [强网拟态2024 final] Jemalloc heap: Every Fold Reveals A Side详解-先知社区 | 8.5 KB | [📄](xianzhi/16113-[强网拟态2024 final] Jemalloc heap  Every Fold Reveals A Side详解-先知社区.md) [🔗](https://xz.aliyun.com/news/16113  ) |
+| 16113 | [强网拟态2024 final] Jemalloc heap: Every Fold Reveals A Side详解-先知社区 | 8.5 KB | [📄](xianzhi/16113-[强网拟态2024 final] Jemalloc heap Every Fold Reveals A Side详解-先知社区.md) [🔗](https://xz.aliyun.com/news/16113  ) |
 | 16115 | 2023巅峰极客-BabyURL复现分析-先知社区 | 15.0 KB | [📄](xianzhi/16115-2023巅峰极客-BabyURL复现分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16115  ) |
 | 16117 | fastjson之parse和parseobject利用差异-先知社区 | 11.2 KB | [📄](xianzhi/16117-fastjson之parse和parseobject利用差异-先知社区.md) [🔗](https://xz.aliyun.com/news/16117  ) |
 | 16118 | 从302跳转打到fastcgi-先知社区 | 6.7 KB | [📄](xianzhi/16118-从302跳转打到fastcgi-先知社区.md) [🔗](https://xz.aliyun.com/news/16118  ) |
@@ -194,7 +194,7 @@
 | 16159 | 基于house_of_botcake的绕过tcachebin保护的攻击-先知社区 | 12.2 KB | [📄](xianzhi/16159-基于house_of_botcake的绕过tcachebin保护的攻击-先知社区.md) [🔗](https://xz.aliyun.com/news/16159  ) |
 | 16160 | JAVA安全之RMI命令执行深度刨析-先知社区 | 64.7 KB | [📄](xianzhi/16160-JAVA安全之RMI命令执行深度刨析-先知社区.md) [🔗](https://xz.aliyun.com/news/16160  ) |
 | 16161 | JAVA安全之JDK8u141版本绕过研究-先知社区 | 19.9 KB | [📄](xianzhi/16161-JAVA安全之JDK8u141版本绕过研究-先知社区.md) [🔗](https://xz.aliyun.com/news/16161  ) |
-| 16164 | 第二届CN-fnstCTF  web题解-先知社区 | 4.3 KB | [📄](xianzhi/16164-第二届CN-fnstCTF  web题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16164  ) |
+| 16164 | 第二届CN-fnstCTF  web题解-先知社区 | 4.3 KB | [📄](xianzhi/16164-第二届CN-fnstCTF web题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16164  ) |
 | 16167 | Host碰撞，从此成功隐藏资产挖掘机！！！-先知社区 | 7.2 KB | [📄](xianzhi/16167-Host碰撞，从此成功隐藏资产挖掘机！！！-先知社区.md) [🔗](https://xz.aliyun.com/news/16167  ) |
 | 16168 | Java Web内存马深入分析：从注入原理到检测查杀-先知社区 | 50.6 KB | [📄](xianzhi/16168-Java Web内存马深入分析：从注入原理到检测查杀-先知社区.md) [🔗](https://xz.aliyun.com/news/16168  ) |
 | 16169 | 国城杯Re方向题解-先知社区 | 39.2 KB | [📄](xianzhi/16169-国城杯Re方向题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16169  ) |
@@ -213,7 +213,7 @@
 | 16185 | HITCTF pipe_snake详解-先知社区 | 7.6 KB | [📄](xianzhi/16185-HITCTF pipe_snake详解-先知社区.md) [🔗](https://xz.aliyun.com/news/16185  ) |
 | 16187 | 第十八届信息安全大赛 && 第二届长城杯 - WEB WP-先知社区 | 7.4 KB | [📄](xianzhi/16187-第十八届信息安全大赛 && 第二届长城杯 - WEB WP-先知社区.md) [🔗](https://xz.aliyun.com/news/16187  ) |
 | 16188 | 第十八届信息安全大赛 && 第二届长城杯 - pwn-先知社区 | 13.9 KB | [📄](xianzhi/16188-第十八届信息安全大赛 && 第二届长城杯 - pwn-先知社区.md) [🔗](https://xz.aliyun.com/news/16188  ) |
-| 16192 | 第十八届信息安全大赛 && 第二届长城杯  - web&re  wp-先知社区 | 12.1 KB | [📄](xianzhi/16192-第十八届信息安全大赛 && 第二届长城杯  - web&re  wp-先知社区.md) [🔗](https://xz.aliyun.com/news/16192  ) |
+| 16192 | 第十八届信息安全大赛 && 第二届长城杯  - web&re  wp-先知社区 | 12.1 KB | [📄](xianzhi/16192-第十八届信息安全大赛 && 第二届长城杯 - web&re wp-先知社区.md) [🔗](https://xz.aliyun.com/news/16192  ) |
 | 16196 | 第十八届信息安全大赛 && 第二届长城杯 - zeroshell1~5，WinFT_1~2，sc05_1-先知社区 | 3.7 KB | [📄](xianzhi/16196-第十八届信息安全大赛 && 第二届长城杯 - zeroshell1~5，WinFT_1~2，sc05_1-先知社区.md) [🔗](https://xz.aliyun.com/news/16196  ) |
 | 16203 | 第十八届信息安全大赛 && 第二届长城杯 - re-先知社区 | 5.9 KB | [📄](xianzhi/16203-第十八届信息安全大赛 && 第二届长城杯 - re-先知社区.md) [🔗](https://xz.aliyun.com/news/16203  ) |
 | 16208 | Ucum-java XXE漏洞分析(CVE-2024-55887)-先知社区 | 2.9 KB | [📄](xianzhi/16208-Ucum-java XXE漏洞分析(CVE-2024-55887)-先知社区.md) [🔗](https://xz.aliyun.com/news/16208  ) |
@@ -301,7 +301,7 @@
 | 16331 | Java安全之加载shellcode_bypass杀软-先知社区 | 80.2 KB | [📄](xianzhi/16331-Java安全之加载shellcode_bypass杀软-先知社区.md) [🔗](https://xz.aliyun.com/news/16331  ) |
 | 16332 | 基于科来的哥斯拉流量分析-先知社区 | 7.0 KB | [📄](xianzhi/16332-基于科来的哥斯拉流量分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16332  ) |
 | 16333 | AFL源码学习(一)-先知社区 | 24.2 KB | [📄](xianzhi/16333-AFL源码学习(一)-先知社区.md) [🔗](https://xz.aliyun.com/news/16333  ) |
-| 16337 | Tomcat CVE-2024-50379 / CVE-2024-56337 条件竞争漏洞分析-先知社区 | 22.6 KB | [📄](xianzhi/16337-Tomcat CVE-2024-50379   CVE-2024-56337 条件竞争漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16337  ) |
+| 16337 | Tomcat CVE-2024-50379 / CVE-2024-56337 条件竞争漏洞分析-先知社区 | 22.6 KB | [📄](xianzhi/16337-Tomcat CVE-2024-50379 CVE-2024-56337 条件竞争漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16337  ) |
 | 16338 | HELLOCTF反序列化靶场全解-先知社区 | 25.6 KB | [📄](xianzhi/16338-HELLOCTF反序列化靶场全解-先知社区.md) [🔗](https://xz.aliyun.com/news/16338  ) |
 | 16339 | Linux渗透实战之Trickster-先知社区 | 9.6 KB | [📄](xianzhi/16339-Linux渗透实战之Trickster-先知社区.md) [🔗](https://xz.aliyun.com/news/16339  ) |
 | 16340 | fastapi 框架中的无回显利用-先知社区 | 13.2 KB | [📄](xianzhi/16340-fastapi 框架中的无回显利用-先知社区.md) [🔗](https://xz.aliyun.com/news/16340  ) |
@@ -352,7 +352,7 @@
 | 16409 | 记一次渗透测试实战之Sea-先知社区 | 3.4 KB | [📄](xianzhi/16409-记一次渗透测试实战之Sea-先知社区.md) [🔗](https://xz.aliyun.com/news/16409  ) |
 | 16412 | 2024ImaginaryCTF 12月练习赛——部分Crypto题解分享-先知社区 | 52.3 KB | [📄](xianzhi/16412-2024ImaginaryCTF 12月练习赛——部分Crypto题解分享-先知社区.md) [🔗](https://xz.aliyun.com/news/16412  ) |
 | 16413 | 禅道CMS开源版SQL注入漏洞分析-先知社区 | 3.2 KB | [📄](xianzhi/16413-禅道CMS开源版SQL注入漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16413  ) |
-| 16415 | 第二届CN-fnst::CTF WriteUp(web,misc,crypto,osint,pwn)-先知社区 | 28.0 KB | [📄](xianzhi/16415-第二届CN-fnst  CTF WriteUp(web,misc,crypto,osint,pwn)-先知社区.md) [🔗](https://xz.aliyun.com/news/16415  ) |
+| 16415 | 第二届CN-fnst::CTF WriteUp(web,misc,crypto,osint,pwn)-先知社区 | 28.0 KB | [📄](xianzhi/16415-第二届CN-fnst CTF WriteUp(web,misc,crypto,osint,pwn)-先知社区.md) [🔗](https://xz.aliyun.com/news/16415  ) |
 | 16416 | CVE-2024-13025-Codezips 大学管理系统 faculty.php sql 注入分析及拓展-先知社区 | 3.3 KB | [📄](xianzhi/16416-CVE-2024-13025-Codezips 大学管理系统 faculty.php sql 注入分析及拓展-先知社区.md) [🔗](https://xz.aliyun.com/news/16416  ) |
 | 16417 | BurpSuite插件：OneScan - 递归目录扫描插件-先知社区 | 9.4 KB | [📄](xianzhi/16417-BurpSuite插件：OneScan - 递归目录扫描插件-先知社区.md) [🔗](https://xz.aliyun.com/news/16417  ) |
 | 16418 | 前端加密对抗常见场景突破-先知社区 | 8.7 KB | [📄](xianzhi/16418-前端加密对抗常见场景突破-先知社区.md) [🔗](https://xz.aliyun.com/news/16418  ) |
@@ -365,7 +365,7 @@
 | 16429 | 蚁景网安实验室-双层内网渗透虚拟仿真实战-先知社区 | 12.7 KB | [📄](xianzhi/16429-蚁景网安实验室-双层内网渗透虚拟仿真实战-先知社区.md) [🔗](https://xz.aliyun.com/news/16429  ) |
 | 16430 | 传统Office结构下的后门和利用手段解析-先知社区 | 18.0 KB | [📄](xianzhi/16430-传统Office结构下的后门和利用手段解析-先知社区.md) [🔗](https://xz.aliyun.com/news/16430  ) |
 | 16431 | Sharp4UACPASS：一款通过调用CMSTP进程绕过UAC的工具-先知社区 | 7.2 KB | [📄](xianzhi/16431-Sharp4UACPASS：一款通过调用CMSTP进程绕过UAC的工具-先知社区.md) [🔗](https://xz.aliyun.com/news/16431  ) |
-| 16432 | Linux渗透实战之Hackademic: RTB1靶场提权-先知社区 | 12.8 KB | [📄](xianzhi/16432-Linux渗透实战之Hackademic  RTB1靶场提权-先知社区.md) [🔗](https://xz.aliyun.com/news/16432  ) |
+| 16432 | Linux渗透实战之Hackademic: RTB1靶场提权-先知社区 | 12.8 KB | [📄](xianzhi/16432-Linux渗透实战之Hackademic RTB1靶场提权-先知社区.md) [🔗](https://xz.aliyun.com/news/16432  ) |
 | 16435 | WP-0ops2024-pwn-<IP Management System>-先知社区 | 17.3 KB | [📄](xianzhi/16435-WP-0ops2024-pwn- IP Management System -先知社区.md) [🔗](https://xz.aliyun.com/news/16435  ) |
 | 16436 | cJSON库函数存在的堆溢出漏洞分析-先知社区 | 11.0 KB | [📄](xianzhi/16436-cJSON库函数存在的堆溢出漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16436  ) |
 | 16440 | Sekiro+Yakit 热加载无痛绕sign-先知社区 | 6.3 KB | [📄](xianzhi/16440-Sekiro+Yakit 热加载无痛绕sign-先知社区.md) [🔗](https://xz.aliyun.com/news/16440  ) |
@@ -395,7 +395,7 @@
 | 16482 | 免杀基础-硬断Hook-先知社区 | 38.6 KB | [📄](xianzhi/16482-免杀基础-硬断Hook-先知社区.md) [🔗](https://xz.aliyun.com/news/16482  ) |
 | 16483 | 从PAGE_GUARD HOOK 到内存扫描规避-先知社区 | 8.4 KB | [📄](xianzhi/16483-从PAGE_GUARD HOOK 到内存扫描规避-先知社区.md) [🔗](https://xz.aliyun.com/news/16483  ) |
 | 16488 | CVE-2024-43441 Apache HugeGraph 硬编码漏洞 复现一则-先知社区 | 3.9 KB | [📄](xianzhi/16488-CVE-2024-43441 Apache HugeGraph 硬编码漏洞 复现一则-先知社区.md) [🔗](https://xz.aliyun.com/news/16488  ) |
-| 16489 | V8 字节码反编译 | 还原bytenode保护的js代码-先知社区 | 19.4 KB | [📄](xianzhi/16489-V8 字节码反编译   还原bytenode保护的js代码-先知社区.md) [🔗](https://xz.aliyun.com/news/16489  ) |
+| 16489 | V8 字节码反编译 | 还原bytenode保护的js代码-先知社区 | 19.4 KB | [📄](xianzhi/16489-V8 字节码反编译 还原bytenode保护的js代码-先知社区.md) [🔗](https://xz.aliyun.com/news/16489  ) |
 | 16490 | JeecgBoot SQL注入漏洞分析(CVE-2024-48307)-先知社区 | 5.4 KB | [📄](xianzhi/16490-JeecgBoot SQL注入漏洞分析(CVE-2024-48307)-先知社区.md) [🔗](https://xz.aliyun.com/news/16490  ) |
 | 16491 | Java 代码解密：使用 Frida 还原 JVMTI Agent 加密保护的java类-先知社区 | 17.8 KB | [📄](xianzhi/16491-Java 代码解密：使用 Frida 还原 JVMTI Agent 加密保护的java类-先知社区.md) [🔗](https://xz.aliyun.com/news/16491  ) |
 | 16492 | 2025全国大学生软件系统安全赛——VM题解-先知社区 | 16.3 KB | [📄](xianzhi/16492-2025全国大学生软件系统安全赛——VM题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16492  ) |
@@ -440,7 +440,7 @@
 | 16593 | cython逆向之CTF实战（1）-先知社区 | 5.9 KB | [📄](xianzhi/16593-cython逆向之CTF实战（1）-先知社区.md) [🔗](https://xz.aliyun.com/news/16593  ) |
 | 16594 | Tornado框架内存马学习-先知社区 | 13.2 KB | [📄](xianzhi/16594-Tornado框架内存马学习-先知社区.md) [🔗](https://xz.aliyun.com/news/16594  ) |
 | 16596 | 湘岚杯wp-先知社区 | 9.4 KB | [📄](xianzhi/16596-湘岚杯wp-先知社区.md) [🔗](https://xz.aliyun.com/news/16596  ) |
-| 16597 | Vulnhub靶机 /dev/random: Scream：tftp利用，perl木马上传，windows nc正向shell连接，at命令提权-先知社区 | 12.4 KB | [📄](xianzhi/16597-Vulnhub靶机  dev random  Scream：tftp利用，perl木马上传，windows nc正向shell连接，at命令提权-先知社区.md) [🔗](https://xz.aliyun.com/news/16597  ) |
+| 16597 | Vulnhub靶机 /dev/random: Scream：tftp利用，perl木马上传，windows nc正向shell连接，at命令提权-先知社区 | 12.4 KB | [📄](xianzhi/16597-Vulnhub靶机 dev random Scream：tftp利用，perl木马上传，windows nc正向shell连接，at命令提权-先知社区.md) [🔗](https://xz.aliyun.com/news/16597  ) |
 | 16600 | 春秋杯冬季赛day2 easy_http复现-先知社区 | 9.6 KB | [📄](xianzhi/16600-春秋杯冬季赛day2 easy_http复现-先知社区.md) [🔗](https://xz.aliyun.com/news/16600  ) |
 | 16603 | 西湖论剑2025 Web&Misc解析-先知社区 | 8.3 KB | [📄](xianzhi/16603-西湖论剑2025 Web&Misc解析-先知社区.md) [🔗](https://xz.aliyun.com/news/16603  ) |
 | 16609 | 2025 KnightCTF reverse方向AK全题解-先知社区 | 24.7 KB | [📄](xianzhi/16609-2025 KnightCTF reverse方向AK全题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16609  ) |
@@ -541,7 +541,7 @@
 | 16859 | 0~1深入解析PE文件结构+做实验-先知社区 | 27.5 KB | [📄](xianzhi/16859-0~1深入解析PE文件结构+做实验-先知社区.md) [🔗](https://xz.aliyun.com/news/16859  ) |
 | 16861 | 某rdm系统代码审计upload&download-先知社区 | 3.3 KB | [📄](xianzhi/16861-某rdm系统代码审计upload&download-先知社区.md) [🔗](https://xz.aliyun.com/news/16861  ) |
 | 16862 | 文件操作路由接口代码分析至getshell-先知社区 | 4.5 KB | [📄](xianzhi/16862-文件操作路由接口代码分析至getshell-先知社区.md) [🔗](https://xz.aliyun.com/news/16862  ) |
-| 16864 | 还看！dump你的域hash来了！-  域安全-先知社区 | 9.0 KB | [📄](xianzhi/16864-还看！dump你的域hash来了！-  域安全-先知社区.md) [🔗](https://xz.aliyun.com/news/16864  ) |
+| 16864 | 还看！dump你的域hash来了！-  域安全-先知社区 | 9.0 KB | [📄](xianzhi/16864-还看！dump你的域hash来了！- 域安全-先知社区.md) [🔗](https://xz.aliyun.com/news/16864  ) |
 | 16873 | 2025 vnctf crypto方向题解-先知社区 | 6.3 KB | [📄](xianzhi/16873-2025 vnctf crypto方向题解-先知社区.md) [🔗](https://xz.aliyun.com/news/16873  ) |
 | 16877 | 使用codeql 寻找 ofcms 的新漏洞-先知社区 | 17.9 KB | [📄](xianzhi/16877-使用codeql 寻找 ofcms 的新漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/16877  ) |
 | 16879 | CVE-2024-55461 路径穿越+rce 组合拳-先知社区 | 6.3 KB | [📄](xianzhi/16879-CVE-2024-55461 路径穿越+rce 组合拳-先知社区.md) [🔗](https://xz.aliyun.com/news/16879  ) |
@@ -587,7 +587,7 @@
 | 16952 | Merlin后渗透利用框架之Merlin Agent通信加解密原理剖析-先知社区 | 30.5 KB | [📄](xianzhi/16952-Merlin后渗透利用框架之Merlin Agent通信加解密原理剖析-先知社区.md) [🔗](https://xz.aliyun.com/news/16952  ) |
 | 16953 | 当前Defender防护下三种提权思路-先知社区 | 5.6 KB | [📄](xianzhi/16953-当前Defender防护下三种提权思路-先知社区.md) [🔗](https://xz.aliyun.com/news/16953  ) |
 | 16954 | SUCTF2025-misc-SU_AD-先知社区 | 87.9 KB | [📄](xianzhi/16954-SUCTF2025-misc-SU_AD-先知社区.md) [🔗](https://xz.aliyun.com/news/16954  ) |
-| 16955 | CVE-2024-40544 /getHtml 接口导致SSRF 漏洞详细分析-先知社区 | 6.3 KB | [📄](xianzhi/16955-CVE-2024-40544  getHtml 接口导致SSRF 漏洞详细分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16955  ) |
+| 16955 | CVE-2024-40544 /getHtml 接口导致SSRF 漏洞详细分析-先知社区 | 6.3 KB | [📄](xianzhi/16955-CVE-2024-40544 getHtml 接口导致SSRF 漏洞详细分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16955  ) |
 | 16959 | 74cms 最新 getshell 漏洞-先知社区 | 6.9 KB | [📄](xianzhi/16959-74cms 最新 getshell 漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/16959  ) |
 | 16963 | JAVA代审之crmeb_java-先知社区 | 7.3 KB | [📄](xianzhi/16963-JAVA代审之crmeb_java-先知社区.md) [🔗](https://xz.aliyun.com/news/16963  ) |
 | 16965 | YZNCMS白盒审计开源漏洞挖掘分析-先知社区 | 6.7 KB | [📄](xianzhi/16965-YZNCMS白盒审计开源漏洞挖掘分析-先知社区.md) [🔗](https://xz.aliyun.com/news/16965  ) |
@@ -651,7 +651,7 @@
 | 17059 | Tomcat下java原生环境获取StandardContext的办法-先知社区 | 54.4 KB | [📄](xianzhi/17059-Tomcat下java原生环境获取StandardContext的办法-先知社区.md) [🔗](https://xz.aliyun.com/news/17059  ) |
 | 17060 | 织梦管理系统任意文件删除从 0 开始的挖掘思路分析-先知社区 | 11.0 KB | [📄](xianzhi/17060-织梦管理系统任意文件删除从 0 开始的挖掘思路分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17060  ) |
 | 17066 | 逻辑漏洞挖掘案例-先知社区 | 2.3 KB | [📄](xianzhi/17066-逻辑漏洞挖掘案例-先知社区.md) [🔗](https://xz.aliyun.com/news/17066  ) |
-| 17068 | GitLab身份验证绕过 | CVE-2024-45409-先知社区 | 9.7 KB | [📄](xianzhi/17068-GitLab身份验证绕过   CVE-2024-45409-先知社区.md) [🔗](https://xz.aliyun.com/news/17068  ) |
+| 17068 | GitLab身份验证绕过 | CVE-2024-45409-先知社区 | 9.7 KB | [📄](xianzhi/17068-GitLab身份验证绕过 CVE-2024-45409-先知社区.md) [🔗](https://xz.aliyun.com/news/17068  ) |
 | 17069 | LMXCMS 任意文件删除到重装系统 getshell 组合拳学习-先知社区 | 10.1 KB | [📄](xianzhi/17069-LMXCMS 任意文件删除到重装系统 getshell 组合拳学习-先知社区.md) [🔗](https://xz.aliyun.com/news/17069  ) |
 | 17070 | 春秋云境 MagicRelay WP-先知社区 | 28.0 KB | [📄](xianzhi/17070-春秋云境 MagicRelay WP-先知社区.md) [🔗](https://xz.aliyun.com/news/17070  ) |
 | 17071 | TRX CTF 2025 WEB题目分析-先知社区 | 16.3 KB | [📄](xianzhi/17071-TRX CTF 2025 WEB题目分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17071  ) |
@@ -723,7 +723,7 @@
 | 17173 | 某cms的漏洞分析-先知社区 | 19.7 KB | [📄](xianzhi/17173-某cms的漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17173  ) |
 | 17174 | 【实战】nike 版本更新绕过-先知社区 | 3.5 KB | [📄](xianzhi/17174-【实战】nike 版本更新绕过-先知社区.md) [🔗](https://xz.aliyun.com/news/17174  ) |
 | 17175 | SmartAdmin-3.13.0-”假”权限绕过分析-先知社区 | 4.7 KB | [📄](xianzhi/17175-SmartAdmin-3.13.0-”假”权限绕过分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17175  ) |
-| 17177 | AI-Sense  AI 对敏感文件自动识别-先知社区 | 21.5 KB | [📄](xianzhi/17177-AI-Sense  AI 对敏感文件自动识别-先知社区.md) [🔗](https://xz.aliyun.com/news/17177  ) |
+| 17177 | AI-Sense  AI 对敏感文件自动识别-先知社区 | 21.5 KB | [📄](xianzhi/17177-AI-Sense AI 对敏感文件自动识别-先知社区.md) [🔗](https://xz.aliyun.com/news/17177  ) |
 | 17178 | 从0到1挖掘freemaker 模板注入-先知社区 | 10.7 KB | [📄](xianzhi/17178-从0到1挖掘freemaker 模板注入-先知社区.md) [🔗](https://xz.aliyun.com/news/17178  ) |
 | 17179 | 深入解析 AWS Lambda：权限管理与提权技巧全揭秘-先知社区 | 18.7 KB | [📄](xianzhi/17179-深入解析 AWS Lambda：权限管理与提权技巧全揭秘-先知社区.md) [🔗](https://xz.aliyun.com/news/17179  ) |
 | 17180 | 通过某哔哩实现白加黑-先知社区 | 2.6 KB | [📄](xianzhi/17180-通过某哔哩实现白加黑-先知社区.md) [🔗](https://xz.aliyun.com/news/17180  ) |
@@ -758,7 +758,7 @@
 | 17218 | GHCTF 2025 Misc 流量分析与取证-先知社区 | 37.0 KB | [📄](xianzhi/17218-GHCTF 2025 Misc 流量分析与取证-先知社区.md) [🔗](https://xz.aliyun.com/news/17218  ) |
 | 17220 | 我的AI女友-先知社区 | 13.2 KB | [📄](xianzhi/17220-我的AI女友-先知社区.md) [🔗](https://xz.aliyun.com/news/17220  ) |
 | 17222 | 银狐注入型最新样本分析-先知社区 | 5.9 KB | [📄](xianzhi/17222-银狐注入型最新样本分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17222  ) |
-| 17223 | AI-Sense  AI 对敏感文件自动识别之模型准确率提升-先知社区 | 25.6 KB | [📄](xianzhi/17223-AI-Sense  AI 对敏感文件自动识别之模型准确率提升-先知社区.md) [🔗](https://xz.aliyun.com/news/17223  ) |
+| 17223 | AI-Sense  AI 对敏感文件自动识别之模型准确率提升-先知社区 | 25.6 KB | [📄](xianzhi/17223-AI-Sense AI 对敏感文件自动识别之模型准确率提升-先知社区.md) [🔗](https://xz.aliyun.com/news/17223  ) |
 | 17227 | XSS新攻击的深入剖析：新场景利用与系统化防御策略-先知社区 | 13.5 KB | [📄](xianzhi/17227-XSS新攻击的深入剖析：新场景利用与系统化防御策略-先知社区.md) [🔗](https://xz.aliyun.com/news/17227  ) |
 | 17228 | TPCTF2025 Web WriteUp-先知社区 | 11.4 KB | [📄](xianzhi/17228-TPCTF2025 Web WriteUp-先知社区.md) [🔗](https://xz.aliyun.com/news/17228  ) |
 | 17230 | ADCS攻击指北-权限提升-先知社区 | 27.5 KB | [📄](xianzhi/17230-ADCS攻击指北-权限提升-先知社区.md) [🔗](https://xz.aliyun.com/news/17230  ) |
@@ -924,10 +924,10 @@
 | 17490 | 使用XML变形webshell免杀思路-先知社区 | 3.5 KB | [📄](xianzhi/17490-使用XML变形webshell免杀思路-先知社区.md) [🔗](https://xz.aliyun.com/news/17490  ) |
 | 17491 | 基于强化学习的DQN智能体自动生成XSS-先知社区 | 34.8 KB | [📄](xianzhi/17491-基于强化学习的DQN智能体自动生成XSS-先知社区.md) [🔗](https://xz.aliyun.com/news/17491  ) |
 | 17492 | PEAR组件在Docker生态中的无文件RCE-先知社区 | 10.0 KB | [📄](xianzhi/17492-PEAR组件在Docker生态中的无文件RCE-先知社区.md) [🔗](https://xz.aliyun.com/news/17492  ) |
-| 17493 | DVWA Vulnerability: Cryptography Problems-先知社区 | 17.0 KB | [📄](xianzhi/17493-DVWA Vulnerability  Cryptography Problems-先知社区.md) [🔗](https://xz.aliyun.com/news/17493  ) |
+| 17493 | DVWA Vulnerability: Cryptography Problems-先知社区 | 17.0 KB | [📄](xianzhi/17493-DVWA Vulnerability Cryptography Problems-先知社区.md) [🔗](https://xz.aliyun.com/news/17493  ) |
 | 17498 | Qt免杀样本分析-先知社区 | 7.7 KB | [📄](xianzhi/17498-Qt免杀样本分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17498  ) |
 | 17499 | 银狐木马伪装投毒分析-先知社区 | 3.2 KB | [📄](xianzhi/17499-银狐木马伪装投毒分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17499  ) |
-| 17500 | Cyber Apocalypse CTF 2025  部分web wp-先知社区 | 11.4 KB | [📄](xianzhi/17500-Cyber Apocalypse CTF 2025  部分web wp-先知社区.md) [🔗](https://xz.aliyun.com/news/17500  ) |
+| 17500 | Cyber Apocalypse CTF 2025  部分web wp-先知社区 | 11.4 KB | [📄](xianzhi/17500-Cyber Apocalypse CTF 2025 部分web wp-先知社区.md) [🔗](https://xz.aliyun.com/news/17500  ) |
 | 17501 | ai越狱实践（二）-先知社区 | 8.2 KB | [📄](xianzhi/17501-ai越狱实践（二）-先知社区.md) [🔗](https://xz.aliyun.com/news/17501  ) |
 | 17502 | 基于VxWorks的固件分析-修复篇-先知社区 | 11.0 KB | [📄](xianzhi/17502-基于VxWorks的固件分析-修复篇-先知社区.md) [🔗](https://xz.aliyun.com/news/17502  ) |
 | 17505 | Apache mina反序列化漏洞-先知社区 | 7.9 KB | [📄](xianzhi/17505-Apache mina反序列化漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/17505  ) |
@@ -1066,7 +1066,7 @@
 | 17818 | 对抗样本引导的文生图越狱技术-先知社区 | 23.3 KB | [📄](xianzhi/17818-对抗样本引导的文生图越狱技术-先知社区.md) [🔗](https://xz.aliyun.com/news/17818  ) |
 | 17819 | 记一次奇妙的Oracle注入绕WAF之旅-先知社区 | 6.4 KB | [📄](xianzhi/17819-记一次奇妙的Oracle注入绕WAF之旅-先知社区.md) [🔗](https://xz.aliyun.com/news/17819  ) |
 | 17820 | 告别手工验证！MCP SSE结合AI实现FOFA+PoC全自动化漏洞挖掘-先知社区 | 13.7 KB | [📄](xianzhi/17820-告别手工验证！MCP SSE结合AI实现FOFA+PoC全自动化漏洞挖掘-先知社区.md) [🔗](https://xz.aliyun.com/news/17820  ) |
-| 17821 | DudeSuite 一键解锁攻防演练小程序渗透新姿势 | 红队小白不再被劝退-先知社区 | 3.1 KB | [📄](xianzhi/17821-DudeSuite 一键解锁攻防演练小程序渗透新姿势   红队小白不再被劝退-先知社区.md) [🔗](https://xz.aliyun.com/news/17821  ) |
+| 17821 | DudeSuite 一键解锁攻防演练小程序渗透新姿势 | 红队小白不再被劝退-先知社区 | 3.1 KB | [📄](xianzhi/17821-DudeSuite 一键解锁攻防演练小程序渗透新姿势 红队小白不再被劝退-先知社区.md) [🔗](https://xz.aliyun.com/news/17821  ) |
 | 17824 | IDEA Structural Search 抛砖引玉-先知社区 | 12.8 KB | [📄](xianzhi/17824-IDEA Structural Search 抛砖引玉-先知社区.md) [🔗](https://xz.aliyun.com/news/17824  ) |
 | 17825 | 记一次从外网到内网的渗透测试-先知社区 | 14.4 KB | [📄](xianzhi/17825-记一次从外网到内网的渗透测试-先知社区.md) [🔗](https://xz.aliyun.com/news/17825  ) |
 | 17826 | CVE-2024-45436：Ollama ZIP文件解压导致的命令执行漏洞-先知社区 | 6.7 KB | [📄](xianzhi/17826-CVE-2024-45436：Ollama ZIP文件解压导致的命令执行漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/17826  ) |
@@ -1098,7 +1098,7 @@
 | 17872 | 浅析Java反序列化题目的一般思路-先知社区 | 7.5 KB | [📄](xianzhi/17872-浅析Java反序列化题目的一般思路-先知社区.md) [🔗](https://xz.aliyun.com/news/17872  ) |
 | 17876 | ctf-Crypto密码学-LFSR线性反馈移位寄存器-先知社区 | 19.3 KB | [📄](xianzhi/17876-ctf-Crypto密码学-LFSR线性反馈移位寄存器-先知社区.md) [🔗](https://xz.aliyun.com/news/17876  ) |
 | 17877 | 记一次DarkCrystal木马投毒分析-先知社区 | 4.2 KB | [📄](xianzhi/17877-记一次DarkCrystal木马投毒分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17877  ) |
-| 17879 | Vulnerability: API Security-先知社区 | 10.7 KB | [📄](xianzhi/17879-Vulnerability  API Security-先知社区.md) [🔗](https://xz.aliyun.com/news/17879  ) |
+| 17879 | Vulnerability: API Security-先知社区 | 10.7 KB | [📄](xianzhi/17879-Vulnerability API Security-先知社区.md) [🔗](https://xz.aliyun.com/news/17879  ) |
 | 17883 | free源码调试分析-先知社区 | 25.9 KB | [📄](xianzhi/17883-free源码调试分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17883  ) |
 | 17885 | 第二届“长城杯”半决赛ISW赛后复现-详细-先知社区 | 15.0 KB | [📄](xianzhi/17885-第二届“长城杯”半决赛ISW赛后复现-详细-先知社区.md) [🔗](https://xz.aliyun.com/news/17885  ) |
 | 17886 | Go-Zero框架代码审计-先知社区 | 5.5 KB | [📄](xianzhi/17886-Go-Zero框架代码审计-先知社区.md) [🔗](https://xz.aliyun.com/news/17886  ) |
@@ -1114,7 +1114,7 @@
 | 17899 | foritgate 后利用-先知社区 | 5.9 KB | [📄](xianzhi/17899-foritgate 后利用-先知社区.md) [🔗](https://xz.aliyun.com/news/17899  ) |
 | 17900 | ACTF2025 unstoppable 题解-先知社区 | 7.8 KB | [📄](xianzhi/17900-ACTF2025 unstoppable 题解-先知社区.md) [🔗](https://xz.aliyun.com/news/17900  ) |
 | 17902 | Ethernaut_WP（11-15）-先知社区 | 30.9 KB | [📄](xianzhi/17902-Ethernaut_WP（11-15）-先知社区.md) [🔗](https://xz.aliyun.com/news/17902  ) |
-| 17903 | UDRL -> Set Eaf_Bypass "true"-先知社区 | 4.7 KB | [📄](xianzhi/17903-UDRL -  Set Eaf_Bypass  true -先知社区.md) [🔗](https://xz.aliyun.com/news/17903  ) |
+| 17903 | UDRL -> Set Eaf_Bypass "true"-先知社区 | 4.7 KB | [📄](xianzhi/17903-UDRL - Set Eaf_Bypass true -先知社区.md) [🔗](https://xz.aliyun.com/news/17903  ) |
 | 17905 | 异架构入门-先知社区 | 36.7 KB | [📄](xianzhi/17905-异架构入门-先知社区.md) [🔗](https://xz.aliyun.com/news/17905  ) |
 | 17907 | ACTF2025 Web Writeup-先知社区 | 24.1 KB | [📄](xianzhi/17907-ACTF2025 Web Writeup-先知社区.md) [🔗](https://xz.aliyun.com/news/17907  ) |
 | 17908 | 2025 数字中国创新大赛数字安全赛道数据安全产业积分争夺赛决赛writeup-先知社区 | 53.4 KB | [📄](xianzhi/17908-2025 数字中国创新大赛数字安全赛道数据安全产业积分争夺赛决赛writeup-先知社区.md) [🔗](https://xz.aliyun.com/news/17908  ) |
@@ -1141,7 +1141,7 @@
 | 17952 | Cdp协议深度应用Web渗透加解密（小白版）-先知社区 | 2.2 KB | [📄](xianzhi/17952-Cdp协议深度应用Web渗透加解密（小白版）-先知社区.md) [🔗](https://xz.aliyun.com/news/17952  ) |
 | 17957 | Stack Spoof-堆栈欺骗-先知社区 | 8.4 KB | [📄](xianzhi/17957-Stack Spoof-堆栈欺骗-先知社区.md) [🔗](https://xz.aliyun.com/news/17957  ) |
 | 17958 | 大模型隐私攻击技术-先知社区 | 31.0 KB | [📄](xianzhi/17958-大模型隐私攻击技术-先知社区.md) [🔗](https://xz.aliyun.com/news/17958  ) |
-| 17959 | CVE-2024-39722: Ollama 模型/文件存在性漏洞成因探究及完整利用过程-先知社区 | 9.6 KB | [📄](xianzhi/17959-CVE-2024-39722  Ollama 模型 文件存在性漏洞成因探究及完整利用过程-先知社区.md) [🔗](https://xz.aliyun.com/news/17959  ) |
+| 17959 | CVE-2024-39722: Ollama 模型/文件存在性漏洞成因探究及完整利用过程-先知社区 | 9.6 KB | [📄](xianzhi/17959-CVE-2024-39722 Ollama 模型 文件存在性漏洞成因探究及完整利用过程-先知社区.md) [🔗](https://xz.aliyun.com/news/17959  ) |
 | 17960 | Ollama 文件存在性泄露漏洞 (CVE-2024-39719) 详细分析-先知社区 | 10.0 KB | [📄](xianzhi/17960-Ollama 文件存在性泄露漏洞 (CVE-2024-39719) 详细分析-先知社区.md) [🔗](https://xz.aliyun.com/news/17960  ) |
 | 17961 | Windows Shellcode开发（x64 stager）-先知社区 | 67.8 KB | [📄](xianzhi/17961-Windows Shellcode开发（x64 stager）-先知社区.md) [🔗](https://xz.aliyun.com/news/17961  ) |
 | 17962 | 记一次AMD漏洞挖掘：从文件权限配置错误到驱动权限提升-先知社区 | 5.5 KB | [📄](xianzhi/17962-记一次AMD漏洞挖掘：从文件权限配置错误到驱动权限提升-先知社区.md) [🔗](https://xz.aliyun.com/news/17962  ) |
@@ -1168,7 +1168,7 @@
 | 18008 | 从原生反序列化到Hessian反序列化的hook方法-先知社区 | 11.5 KB | [📄](xianzhi/18008-从原生反序列化到Hessian反序列化的hook方法-先知社区.md) [🔗](https://xz.aliyun.com/news/18008  ) |
 | 18013 | 高版本Fastjson：Getter调用限制及绕过方式探究-先知社区 | 16.9 KB | [📄](xianzhi/18013-高版本Fastjson：Getter调用限制及绕过方式探究-先知社区.md) [🔗](https://xz.aliyun.com/news/18013  ) |
 | 18015 | ISCC 练武初赛re+mobile wp-先知社区 | 33.3 KB | [📄](xianzhi/18015-ISCC 练武初赛re+mobile wp-先知社区.md) [🔗](https://xz.aliyun.com/news/18015  ) |
-| 18016 | 【高级睡眠混淆技术】| Cronos-先知社区 | 9.4 KB | [📄](xianzhi/18016-【高级睡眠混淆技术】  Cronos-先知社区.md) [🔗](https://xz.aliyun.com/news/18016  ) |
+| 18016 | 【高级睡眠混淆技术】| Cronos-先知社区 | 9.4 KB | [📄](xianzhi/18016-【高级睡眠混淆技术】 Cronos-先知社区.md) [🔗](https://xz.aliyun.com/news/18016  ) |
 | 18017 | Alibaba Sentinel SSRF漏洞代码审计-先知社区 | 6.1 KB | [📄](xianzhi/18017-Alibaba Sentinel SSRF漏洞代码审计-先知社区.md) [🔗](https://xz.aliyun.com/news/18017  ) |
 | 18018 | 某系统加解密分析-先知社区 | 6.2 KB | [📄](xianzhi/18018-某系统加解密分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18018  ) |
 | 18019 | 非PEB获取ntdll和kernel32模块基址的精妙之道-先知社区 | 59.8 KB | [📄](xianzhi/18019-非PEB获取ntdll和kernel32模块基址的精妙之道-先知社区.md) [🔗](https://xz.aliyun.com/news/18019  ) |
@@ -1333,7 +1333,7 @@
 | 18290 | 记录某企业存储型XSS漏洞从发现到数据外泄全路径分析-先知社区 | 4.1 KB | [📄](xianzhi/18290-记录某企业存储型XSS漏洞从发现到数据外泄全路径分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18290  ) |
 | 18291 | Java 反序列化：Apache Commons Collections CC1 利用链深度解析-先知社区 | 32.2 KB | [📄](xianzhi/18291-Java 反序列化：Apache Commons Collections CC1 利用链深度解析-先知社区.md) [🔗](https://xz.aliyun.com/news/18291  ) |
 | 18293 | Gophish中转&Ewomail邮件服务器搭建与使用教程-先知社区 | 7.7 KB | [📄](xianzhi/18293-Gophish中转&Ewomail邮件服务器搭建与使用教程-先知社区.md) [🔗](https://xz.aliyun.com/news/18293  ) |
-| 18295 | [论文Review] Text-to-LoRA: Instant Transformer Adaptation 一种根据任务描述生成LoRA模型的hypernetwork-先知社区 | 16.5 KB | [📄](xianzhi/18295-[论文Review] Text-to-LoRA  Instant Transformer Adaptation 一种根据任务描述生成LoRA模型的hypernetwork-先知社区.md) [🔗](https://xz.aliyun.com/news/18295  ) |
+| 18295 | [论文Review] Text-to-LoRA: Instant Transformer Adaptation 一种根据任务描述生成LoRA模型的hypernetwork-先知社区 | 16.5 KB | [📄](xianzhi/18295-[论文Review] Text-to-LoRA Instant Transformer Adaptation 一种根据任务描述生成LoRA模型的hypernetwork-先知社区.md) [🔗](https://xz.aliyun.com/news/18295  ) |
 | 18296 | 代码审计-studentmanager-先知社区 | 12.3 KB | [📄](xianzhi/18296-代码审计-studentmanager-先知社区.md) [🔗](https://xz.aliyun.com/news/18296  ) |
 | 18297 | D-Link RCE 的一次简单绕过-先知社区 | 5.2 KB | [📄](xianzhi/18297-D-Link RCE 的一次简单绕过-先知社区.md) [🔗](https://xz.aliyun.com/news/18297  ) |
 | 18300 | FakeArray 的新构造 + 劫持 Wasm LazyCompile 实现通用控制流劫持-先知社区 | 27.3 KB | [📄](xianzhi/18300-FakeArray 的新构造 + 劫持 Wasm LazyCompile 实现通用控制流劫持-先知社区.md) [🔗](https://xz.aliyun.com/news/18300  ) |
@@ -1383,7 +1383,7 @@
 | 18407 | MEM Defense Evasion-先知社区 | 4.4 KB | [📄](xianzhi/18407-MEM Defense Evasion-先知社区.md) [🔗](https://xz.aliyun.com/news/18407  ) |
 | 18409 | Gogs最新RCE分析与利用详情-先知社区 | 10.3 KB | [📄](xianzhi/18409-Gogs最新RCE分析与利用详情-先知社区.md) [🔗](https://xz.aliyun.com/news/18409  ) |
 | 18410 | Apache Hertzbeat<=1.7.1 h2 jdbc RCE-先知社区 | 10.3 KB | [📄](xianzhi/18410-Apache Hertzbeat =1.7.1 h2 jdbc RCE-先知社区.md) [🔗](https://xz.aliyun.com/news/18410  ) |
-| 18412 | RCE复现 | 瑞斯康达智能网关RCE漏洞-先知社区 | 12.3 KB | [📄](xianzhi/18412-RCE复现   瑞斯康达智能网关RCE漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/18412  ) |
+| 18412 | RCE复现 | 瑞斯康达智能网关RCE漏洞-先知社区 | 12.3 KB | [📄](xianzhi/18412-RCE复现 瑞斯康达智能网关RCE漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/18412  ) |
 | 18413 | Java 反序列化：Apache Commons Collections CC2 利用链深度解析-先知社区 | 21.0 KB | [📄](xianzhi/18413-Java 反序列化：Apache Commons Collections CC2 利用链深度解析-先知社区.md) [🔗](https://xz.aliyun.com/news/18413  ) |
 | 18418 | Merlin Agent木马破绽：内存密钥暴露与加密流量破解全解-先知社区 | 19.9 KB | [📄](xianzhi/18418-Merlin Agent木马破绽：内存密钥暴露与加密流量破解全解-先知社区.md) [🔗](https://xz.aliyun.com/news/18418  ) |
 | 18420 | Java内存马篇——WebSocket内存马及GodZilla二开-先知社区 | 45.1 KB | [📄](xianzhi/18420-Java内存马篇——WebSocket内存马及GodZilla二开-先知社区.md) [🔗](https://xz.aliyun.com/news/18420  ) |
@@ -1393,7 +1393,7 @@
 | 18431 | 记一次Comfy插件RCE复现（CVE-2024-21575 ）-先知社区 | 11.2 KB | [📄](xianzhi/18431-记一次Comfy插件RCE复现（CVE-2024-21575 ）-先知社区.md) [🔗](https://xz.aliyun.com/news/18431  ) |
 | 18432 | GoogleCTF2025之pwn-Internship详解-先知社区 | 12.1 KB | [📄](xianzhi/18432-GoogleCTF2025之pwn-Internship详解-先知社区.md) [🔗](https://xz.aliyun.com/news/18432  ) |
 | 18433 | IOT入门--路由器命令执行漏洞-先知社区 | 17.2 KB | [📄](xianzhi/18433-IOT入门--路由器命令执行漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/18433  ) |
-| 18434 | COFF文件解析 | CoffLdr-先知社区 | 14.6 KB | [📄](xianzhi/18434-COFF文件解析   CoffLdr-先知社区.md) [🔗](https://xz.aliyun.com/news/18434  ) |
+| 18434 | COFF文件解析 | CoffLdr-先知社区 | 14.6 KB | [📄](xianzhi/18434-COFF文件解析 CoffLdr-先知社区.md) [🔗](https://xz.aliyun.com/news/18434  ) |
 | 18435 | 从一次waf绕过来学习.Net javascriptserializer反序列化漏洞-先知社区 | 6.9 KB | [📄](xianzhi/18435-从一次waf绕过来学习.Net javascriptserializer反序列化漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/18435  ) |
 | 18437 | Redis hyperloglog 远程代码执行漏洞复现与分析(CVE-2025-32023)-先知社区 | 6.8 KB | [📄](xianzhi/18437-Redis hyperloglog 远程代码执行漏洞复现与分析(CVE-2025-32023)-先知社区.md) [🔗](https://xz.aliyun.com/news/18437  ) |
 | 18440 | 大模型编排框架攻防(以LangChain为例)-先知社区 | 29.5 KB | [📄](xianzhi/18440-大模型编排框架攻防(以LangChain为例)-先知社区.md) [🔗](https://xz.aliyun.com/news/18440  ) |
@@ -1438,9 +1438,7 @@
 | 18523 | 哥斯拉的连接流程分析以及实现自己的魔改webshell-先知社区 | 14.9 KB | [📄](xianzhi/18523-哥斯拉的连接流程分析以及实现自己的魔改webshell-先知社区.md) [🔗](https://xz.aliyun.com/news/18523  ) |
 | 18524 | 玄机平台 流量分析题目合集WP-先知社区 | 37.5 KB | [📄](xianzhi/18524-玄机平台 流量分析题目合集WP-先知社区.md) [🔗](https://xz.aliyun.com/news/18524  ) |
 | 18526 | NepCTF 2025 部分wp-先知社区 | 14.8 KB | [📄](xianzhi/18526-NepCTF 2025 部分wp-先知社区.md) [🔗](https://xz.aliyun.com/news/18526  ) |
-| 18529 | 从“拿下域控”到“主导业务”—面向组织-人员-资产链的高阶隐蔽渗透方法论 | 23.2 KB | [📄](xianzhi/18529-从“拿下域控”到“主导业务”—面向组织-人员-资产链的高阶隐蔽渗透方法论
-
--先知社区.md) [🔗](https://xz.aliyun.com/news/18529  ) |
+| 18529 | 从“拿下域控”到“主导业务”—面向组织-人员-资产链的高阶隐蔽渗透方法论 | 23.2 KB | [📄](xianzhi/18529-从“拿下域控”到“主导业务”—面向组织-人员-资产链的高阶隐蔽渗透方法论 -先知社区.md) [🔗](https://xz.aliyun.com/news/18529  ) |
 | 18530 | 大模型安全落地-模型部署安全-先知社区 | 21.0 KB | [📄](xianzhi/18530-大模型安全落地-模型部署安全-先知社区.md) [🔗](https://xz.aliyun.com/news/18530  ) |
 | 18531 | 数据库提权中的字符集挑战-先知社区 | 7.5 KB | [📄](xianzhi/18531-数据库提权中的字符集挑战-先知社区.md) [🔗](https://xz.aliyun.com/news/18531  ) |
 | 18532 | 记一次某地市网络安全行业职业能力竞赛初赛CTF题解WP（全）-先知社区 | 8.3 KB | [📄](xianzhi/18532-记一次某地市网络安全行业职业能力竞赛初赛CTF题解WP（全）-先知社区.md) [🔗](https://xz.aliyun.com/news/18532  ) |
@@ -1543,7 +1541,7 @@
 | 18735 | AI提示词注入攻防战：从论文挖掘到越狱实战的漏洞发现全解析-先知社区 | 5.2 KB | [📄](xianzhi/18735-AI提示词注入攻防战：从论文挖掘到越狱实战的漏洞发现全解析-先知社区.md) [🔗](https://xz.aliyun.com/news/18735  ) |
 | 18738 | 利用ca管理组权限发布并注册恶意模板利用-先知社区 | 35.1 KB | [📄](xianzhi/18738-利用ca管理组权限发布并注册恶意模板利用-先知社区.md) [🔗](https://xz.aliyun.com/news/18738  ) |
 | 18743 | 我的2025年企业src挖洞之路分享-先知社区 | 10.3 KB | [📄](xianzhi/18743-我的2025年企业src挖洞之路分享-先知社区.md) [🔗](https://xz.aliyun.com/news/18743  ) |
-| 18747 | 深入Sekurlsa::Widgest-先知社区 | 8.8 KB | [📄](xianzhi/18747-深入Sekurlsa  Widgest-先知社区.md) [🔗](https://xz.aliyun.com/news/18747  ) |
+| 18747 | 深入Sekurlsa::Widgest-先知社区 | 8.8 KB | [📄](xianzhi/18747-深入Sekurlsa Widgest-先知社区.md) [🔗](https://xz.aliyun.com/news/18747  ) |
 | 18748 | 先知社区双十一投稿活动｜月满中秋，奖励加倍！-先知社区 | 2.3 KB | [📄](xianzhi/18748-先知社区双十一投稿活动｜月满中秋，奖励加倍！-先知社区.md) [🔗](https://xz.aliyun.com/news/18748  ) |
 | 18752 | 某Python博客系统代审过程-先知社区 | 9.0 KB | [📄](xianzhi/18752-某Python博客系统代审过程-先知社区.md) [🔗](https://xz.aliyun.com/news/18752  ) |
 | 18753 | 基于codeql的newbee-mall漏洞挖掘-先知社区 | 19.4 KB | [📄](xianzhi/18753-基于codeql的newbee-mall漏洞挖掘-先知社区.md) [🔗](https://xz.aliyun.com/news/18753  ) |
@@ -1572,7 +1570,7 @@
 | 18796 | 2025年工业信息安全技能大赛 石油行业锦标赛writeup-先知社区 | 15.6 KB | [📄](xianzhi/18796-2025年工业信息安全技能大赛 石油行业锦标赛writeup-先知社区.md) [🔗](https://xz.aliyun.com/news/18796  ) |
 | 18798 | 基于ResNet18的对抗补丁攻击训练与成功策略-先知社区 | 14.4 KB | [📄](xianzhi/18798-基于ResNet18的对抗补丁攻击训练与成功策略-先知社区.md) [🔗](https://xz.aliyun.com/news/18798  ) |
 | 18799 | SpringAOP链有参调用分析-先知社区 | 15.4 KB | [📄](xianzhi/18799-SpringAOP链有参调用分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18799  ) |
-| 18801 | CVE-2025-52520: Apache Tomcat: DoS via integer overflow in multipart file upload分析-先知社区 | 13.2 KB | [📄](xianzhi/18801-CVE-2025-52520  Apache Tomcat  DoS via integer overflow in multipart file upload分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18801  ) |
+| 18801 | CVE-2025-52520: Apache Tomcat: DoS via integer overflow in multipart file upload分析-先知社区 | 13.2 KB | [📄](xianzhi/18801-CVE-2025-52520 Apache Tomcat DoS via integer overflow in multipart file upload分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18801  ) |
 | 18802 | AdaptixC2通信机制与流量解密分析(listener_beacon_http)-先知社区 | 34.7 KB | [📄](xianzhi/18802-AdaptixC2通信机制与流量解密分析(listener_beacon_http)-先知社区.md) [🔗](https://xz.aliyun.com/news/18802  ) |
 | 18803 | 手撕vigor固件解密复现历史漏洞-先知社区 | 26.4 KB | [📄](xianzhi/18803-手撕vigor固件解密复现历史漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/18803  ) |
 | 18804 | 深入分析Windows内核TOCTOU竞态漏洞本地提权(CVE-2024-30088)-先知社区 | 2387.5 KB | [📄](xianzhi/18804-深入分析Windows内核TOCTOU竞态漏洞本地提权(CVE-2024-30088)-先知社区.md) [🔗](https://xz.aliyun.com/news/18804  ) |
@@ -1591,7 +1589,7 @@
 | 18824 | 记一次Net代码审计之mou应用云平台-先知社区 | 10.9 KB | [📄](xianzhi/18824-记一次Net代码审计之mou应用云平台-先知社区.md) [🔗](https://xz.aliyun.com/news/18824  ) |
 | 18825 | 记一次完整的net代码审计-先知社区 | 16.3 KB | [📄](xianzhi/18825-记一次完整的net代码审计-先知社区.md) [🔗](https://xz.aliyun.com/news/18825  ) |
 | 18829 | Shellcode生成、加载与加密技术全解析：从原理到实践-先知社区 | 53.2 KB | [📄](xianzhi/18829-Shellcode生成、加载与加密技术全解析：从原理到实践-先知社区.md) [🔗](https://xz.aliyun.com/news/18829  ) |
-| 18834 | 2025第十届 “磐石行动”  java题目-先知社区 | 18.6 KB | [📄](xianzhi/18834-2025第十届 “磐石行动”  java题目-先知社区.md) [🔗](https://xz.aliyun.com/news/18834  ) |
+| 18834 | 2025第十届 “磐石行动”  java题目-先知社区 | 18.6 KB | [📄](xianzhi/18834-2025第十届 “磐石行动” java题目-先知社区.md) [🔗](https://xz.aliyun.com/news/18834  ) |
 | 18836 | AICTF 2025 writeup-先知社区 | 34.9 KB | [📄](xianzhi/18836-AICTF 2025 writeup-先知社区.md) [🔗](https://xz.aliyun.com/news/18836  ) |
 | 18842 | 2025青岛网络安全大赛决赛writeup（全部题解）-先知社区 | 36.9 KB | [📄](xianzhi/18842-2025青岛网络安全大赛决赛writeup（全部题解）-先知社区.md) [🔗](https://xz.aliyun.com/news/18842  ) |
 | 18843 | nodejs 原型链污染新视角-先知社区 | 19.5 KB | [📄](xianzhi/18843-nodejs 原型链污染新视角-先知社区.md) [🔗](https://xz.aliyun.com/news/18843  ) |
@@ -1682,7 +1680,7 @@
 | 18980 | 大模型部署安全建设指南-先知社区 | 69.4 KB | [📄](xianzhi/18980-大模型部署安全建设指南-先知社区.md) [🔗](https://xz.aliyun.com/news/18980  ) |
 | 18988 | 基于AST的Python混淆-先知社区 | 45.5 KB | [📄](xianzhi/18988-基于AST的Python混淆-先知社区.md) [🔗](https://xz.aliyun.com/news/18988  ) |
 | 18989 | 云扫描环境集群搭建的一些思考与尝试-先知社区 | 5.5 KB | [📄](xianzhi/18989-云扫描环境集群搭建的一些思考与尝试-先知社区.md) [🔗](https://xz.aliyun.com/news/18989  ) |
-| 18991 | 云安全CTF:  当GitLab集成与Actuator端点成为云安全的突破口-先知社区 | 54.5 KB | [📄](xianzhi/18991-云安全CTF   当GitLab集成与Actuator端点成为云安全的突破口-先知社区.md) [🔗](https://xz.aliyun.com/news/18991  ) |
+| 18991 | 云安全CTF:  当GitLab集成与Actuator端点成为云安全的突破口-先知社区 | 54.5 KB | [📄](xianzhi/18991-云安全CTF 当GitLab集成与Actuator端点成为云安全的突破口-先知社区.md) [🔗](https://xz.aliyun.com/news/18991  ) |
 | 18992 | DefCamp CTF 2025 onigirl 复盘详解-先知社区 | 55.7 KB | [📄](xianzhi/18992-DefCamp CTF 2025 onigirl 复盘详解-先知社区.md) [🔗](https://xz.aliyun.com/news/18992  ) |
 | 18993 | 用友U8cloud最新全版本IPFxxFileService任意文件上传漏洞分析-先知社区 | 17.0 KB | [📄](xianzhi/18993-用友U8cloud最新全版本IPFxxFileService任意文件上传漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18993  ) |
 | 18994 | CodeQL中Source点的实现逻辑与Spring框架污点源分析-先知社区 | 25.5 KB | [📄](xianzhi/18994-CodeQL中Source点的实现逻辑与Spring框架污点源分析-先知社区.md) [🔗](https://xz.aliyun.com/news/18994  ) |
@@ -1701,7 +1699,7 @@
 | 19017 | 记一次对某oa的代码审计-先知社区 | 19.7 KB | [📄](xianzhi/19017-记一次对某oa的代码审计-先知社区.md) [🔗](https://xz.aliyun.com/news/19017  ) |
 | 19019 | Holmes CTF 2025 wp-先知社区 | 31.2 KB | [📄](xianzhi/19019-Holmes CTF 2025 wp-先知社区.md) [🔗](https://xz.aliyun.com/news/19019  ) |
 | 19022 | 用友U8Cloud所有版本NCCloudGatewayServlet命令执行漏洞分析-先知社区 | 10.5 KB | [📄](xianzhi/19022-用友U8Cloud所有版本NCCloudGatewayServlet命令执行漏洞分析-先知社区.md) [🔗](https://xz.aliyun.com/news/19022  ) |
-| 19023 | 用友U8Cloud < 20250924补丁版本 NCCloudGatewayServlet 命令执行漏洞-先知社区 | 8.5 KB | [📄](xianzhi/19023-用友U8Cloud   20250924补丁版本 NCCloudGatewayServlet 命令执行漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/19023  ) |
+| 19023 | 用友U8Cloud < 20250924补丁版本 NCCloudGatewayServlet 命令执行漏洞-先知社区 | 8.5 KB | [📄](xianzhi/19023-用友U8Cloud 20250924补丁版本 NCCloudGatewayServlet 命令执行漏洞-先知社区.md) [🔗](https://xz.aliyun.com/news/19023  ) |
 | 19025 | 从“空白页”到突破口：渗透测试中的信息发现七种思路-先知社区 | 4.9 KB | [📄](xianzhi/19025-从“空白页”到突破口：渗透测试中的信息发现七种思路-先知社区.md) [🔗](https://xz.aliyun.com/news/19025  ) |
 | 19026 | 记一次全方位的漏洞挖掘——接管全站数万账号-先知社区 | 4.8 KB | [📄](xianzhi/19026-记一次全方位的漏洞挖掘——接管全站数万账号-先知社区.md) [🔗](https://xz.aliyun.com/news/19026  ) |
 | 19027 | 开放签电子签章系统审计-先知社区 | 5.7 KB | [📄](xianzhi/19027-开放签电子签章系统审计-先知社区.md) [🔗](https://xz.aliyun.com/news/19027  ) |
@@ -1980,7 +1978,7 @@
 | 2613 | 红队外网打点实战案例分享 | 16.7 KB | [📄](butian/2613-红队外网打点实战案例分享.md) [🔗](https://forum.butian.net/share/2613  ) |
 | 2614 | 某开源OA系统的审计记录 | 8.9 KB | [📄](butian/2614-某开源OA系统的审计记录.md) [🔗](https://forum.butian.net/share/2614  ) |
 | 2615 | 一次曲折的漏洞挖掘 | 28.1 KB | [📄](butian/2615-一次曲折的漏洞挖掘.md) [🔗](https://forum.butian.net/share/2615  ) |
-| 2616 | 实战 | 记某次攻防演练钓鱼专项 | 10.5 KB | [📄](butian/2616-实战   记某次攻防演练钓鱼专项.md) [🔗](https://forum.butian.net/share/2616  ) |
+| 2616 | 实战 | 记某次攻防演练钓鱼专项 | 10.5 KB | [📄](butian/2616-实战 记某次攻防演练钓鱼专项.md) [🔗](https://forum.butian.net/share/2616  ) |
 | 2617 | 某oa登录绕过分析 | 7.3 KB | [📄](butian/2617-某oa登录绕过分析.md) [🔗](https://forum.butian.net/share/2617  ) |
 | 2618 | 记一次前端加解密到sql注入过waf的实战 | 6.2 KB | [📄](butian/2618-记一次前端加解密到sql注入过waf的实战.md) [🔗](https://forum.butian.net/share/2618  ) |
 | 2620 | 一次cs样本免杀实践 | 39.4 KB | [📄](butian/2620-一次cs样本免杀实践.md) [🔗](https://forum.butian.net/share/2620  ) |
@@ -2054,7 +2052,7 @@
 | 2783 | SpringWeb中获取@PathVariable参数值的方式与潜在的权限绕过风险 | 11.1 KB | [📄](butian/2783-SpringWeb中获取@PathVariable参数值的方式与潜在的权限绕过风险.md) [🔗](https://forum.butian.net/share/2783  ) |
 | 2784 | 西湖论剑phpems分析 | 23.6 KB | [📄](butian/2784-西湖论剑phpems分析.md) [🔗](https://forum.butian.net/share/2784  ) |
 | 2785 | 一种 ysoserial.jar 反序列化Payload的解码 | 13.7 KB | [📄](butian/2785-一种 ysoserial.jar 反序列化Payload的解码.md) [🔗](https://forum.butian.net/share/2785  ) |
-| 2786 | 实战 | 记某次逆向小程序解密及签名破解 | 5.5 KB | [📄](butian/2786-实战   记某次逆向小程序解密及签名破解.md) [🔗](https://forum.butian.net/share/2786  ) |
+| 2786 | 实战 | 记某次逆向小程序解密及签名破解 | 5.5 KB | [📄](butian/2786-实战 记某次逆向小程序解密及签名破解.md) [🔗](https://forum.butian.net/share/2786  ) |
 | 2787 | JA 指纹识全系讲解-JA4+篇 | 20.0 KB | [📄](butian/2787-JA 指纹识全系讲解-JA4+篇.md) [🔗](https://forum.butian.net/share/2787  ) |
 | 2788 | Xunruicms反序列化漏洞利用链挖掘过程 | 14.0 KB | [📄](butian/2788-Xunruicms反序列化漏洞利用链挖掘过程.md) [🔗](https://forum.butian.net/share/2788  ) |
 | 2791 | 浅学Filterchain | 14.9 KB | [📄](butian/2791-浅学Filterchain.md) [🔗](https://forum.butian.net/share/2791  ) |
@@ -2083,7 +2081,7 @@
 | 2841 | 万字总结信息收集(全网最全) | 55.8 KB | [📄](butian/2841-万字总结信息收集(全网最全).md) [🔗](https://forum.butian.net/share/2841  ) |
 | 2844 | 登录口的对抗 | 13.5 KB | [📄](butian/2844-登录口的对抗.md) [🔗](https://forum.butian.net/share/2844  ) |
 | 2845 | Cacti SQL注入漏洞分析（CVE-2023-51448） | 2.6 KB | [📄](butian/2845-Cacti SQL注入漏洞分析（CVE-2023-51448）.md) [🔗](https://forum.butian.net/share/2845  ) |
-| 2848 | CVE-2024-23328  DataEase jdbc反序列化漏洞分析 | 8.6 KB | [📄](butian/2848-CVE-2024-23328  DataEase jdbc反序列化漏洞分析.md) [🔗](https://forum.butian.net/share/2848  ) |
+| 2848 | CVE-2024-23328  DataEase jdbc反序列化漏洞分析 | 8.6 KB | [📄](butian/2848-CVE-2024-23328 DataEase jdbc反序列化漏洞分析.md) [🔗](https://forum.butian.net/share/2848  ) |
 | 2849 | 某oa代码审计 | 9.0 KB | [📄](butian/2849-某oa代码审计.md) [🔗](https://forum.butian.net/share/2849  ) |
 | 2856 | NoSQL 从0到1（MongoDB and InfluxDB） | 33.5 KB | [📄](butian/2856-NoSQL 从0到1（MongoDB and InfluxDB）.md) [🔗](https://forum.butian.net/share/2856  ) |
 | 2857 | Java安全 - CommonsCollections链 全系列详解 | 36.4 KB | [📄](butian/2857-Java安全 - CommonsCollections链 全系列详解.md) [🔗](https://forum.butian.net/share/2857  ) |
@@ -2139,7 +2137,7 @@
 | 2950 | 记第一次AWD与ISW之旅 | 16.0 KB | [📄](butian/2950-记第一次AWD与ISW之旅.md) [🔗](https://forum.butian.net/share/2950  ) |
 | 2958 | 记一次pearcmd文件包含+session序列化 | 29.5 KB | [📄](butian/2958-记一次pearcmd文件包含+session序列化.md) [🔗](https://forum.butian.net/share/2958  ) |
 | 2960 | JNDI高版本JDK绕过--C3P0/HikariCP | 9.7 KB | [📄](butian/2960-JNDI高版本JDK绕过--C3P0 HikariCP.md) [🔗](https://forum.butian.net/share/2960  ) |
-| 2961 | "凌武杯" D^3CTF 2024 wp | 62.6 KB | [📄](butian/2961-凌武杯  D^3CTF 2024 wp.md) [🔗](https://forum.butian.net/share/2961  ) |
+| 2961 | "凌武杯" D^3CTF 2024 wp | 62.6 KB | [📄](butian/2961-凌武杯 D^3CTF 2024 wp.md) [🔗](https://forum.butian.net/share/2961  ) |
 | 2963 | bc从注册到RCE | 6.9 KB | [📄](butian/2963-bc从注册到RCE.md) [🔗](https://forum.butian.net/share/2963  ) |
 | 2964 | 记一次golang的dsn注入之旅 | 8.0 KB | [📄](butian/2964-记一次golang的dsn注入之旅.md) [🔗](https://forum.butian.net/share/2964  ) |
 | 2966 | 让SharpBeacon再次伟大 | 27.4 KB | [📄](butian/2966-让SharpBeacon再次伟大.md) [🔗](https://forum.butian.net/share/2966  ) |
@@ -2164,7 +2162,7 @@
 | 3021 | 基于对抗样本越狱攻击多模态大模型 | 19.1 KB | [📄](butian/3021-基于对抗样本越狱攻击多模态大模型.md) [🔗](https://forum.butian.net/share/3021  ) |
 | 3024 | CVE-2023-46747和AJP走私漏洞 | 4.6 KB | [📄](butian/3024-CVE-2023-46747和AJP走私漏洞.md) [🔗](https://forum.butian.net/share/3024  ) |
 | 3026 | 深入探索软件注册机制：从硬编码到软编码 | 10.8 KB | [📄](butian/3026-深入探索软件注册机制：从硬编码到软编码.md) [🔗](https://forum.butian.net/share/3026  ) |
-| 3027 | Apache InLong < 1.12.0 JDBC反序列化漏洞（CVE-2024-26579）浅析 | 11.2 KB | [📄](butian/3027-Apache InLong   1.12.0 JDBC反序列化漏洞（CVE-2024-26579）浅析.md) [🔗](https://forum.butian.net/share/3027  ) |
+| 3027 | Apache InLong < 1.12.0 JDBC反序列化漏洞（CVE-2024-26579）浅析 | 11.2 KB | [📄](butian/3027-Apache InLong 1.12.0 JDBC反序列化漏洞（CVE-2024-26579）浅析.md) [🔗](https://forum.butian.net/share/3027  ) |
 | 3030 | 越狱大语言模型-通过自动化生成隐蔽提示 | 29.5 KB | [📄](butian/3030-越狱大语言模型-通过自动化生成隐蔽提示.md) [🔗](https://forum.butian.net/share/3030  ) |
 | 3033 | windows符号链接利用技术详解 | 33.6 KB | [📄](butian/3033-windows符号链接利用技术详解.md) [🔗](https://forum.butian.net/share/3033  ) |
 | 3034 | CVE-2024-21111 Oracle VirtualBox 本地权限提升漏洞分析 | 27.6 KB | [📄](butian/3034-CVE-2024-21111 Oracle VirtualBox 本地权限提升漏洞分析.md) [🔗](https://forum.butian.net/share/3034  ) |
