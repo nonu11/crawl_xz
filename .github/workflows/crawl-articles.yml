@@ -69,13 +69,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y wget unzip xvfb libxi6 wkhtmltopdf
 
-          # Chrome 签名密钥（apt-key 已废弃，改用 keyring）
-          curl -fsSL https://dl.google.com/linux/linux_signing_key.pub \
-            | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
-          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" \
-            | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          # GitHub 托管的 ubuntu runner 已预装 Chrome，只有缺失时才安装
+          if ! command -v google-chrome >/dev/null 2>&1; then
+            # apt-key 已废弃，改用 keyring；必须带 --batch --yes，
+            # 否则 gpg 会尝试打开 /dev/tty 等待交互，runner 上没有 tty 会直接失败
+            curl -fsSL https://dl.google.com/linux/linux_signing_key.pub \
+              | sudo gpg --batch --yes --dearmor -o /usr/share/keyrings/google-chrome.gpg
+            echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" \
+              | sudo tee /etc/apt/sources.list.d/google-chrome.list > /dev/null
+            sudo apt-get update
+            sudo apt-get install -y google-chrome-stable
+          fi
 
           google-chrome --version
 
