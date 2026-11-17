@@ -45,7 +45,7 @@ concurrency:
 
 env:
   # 每次抓取的 ID 跨度，必须大于站点单日新增文章数，否则永远追不上
-  CRAWL_STEP: 30
+  CRAWL_STEP: 50
 
 jobs:
   crawl:
